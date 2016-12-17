@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "892724590472",
+    "firebase_url": "https://huegallery-1149.firebaseio.com",
+    "project_id": "huegallery-1149",
+    "storage_bucket": "huegallery-1149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892724590472:android:fc3635611d07f8c0",
+        "android_client_info": {
+          "package_name": "com.nice295.huegallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892724590472-iluj1ce394vok3n5orpi9ma39hmrd97s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nice295.huegallery",
+            "certificate_hash": "CB697776674FB5607EFE5BA44124DC0A4D1D1D75"
+          }
+        },
+        {
+          "client_id": "892724590472-c8mgljmvkrjtibtd68s6dlfs0f64dq4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFxFcj6HviO4FHg0cenKyl2rVHP8PIj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892724590472-c8mgljmvkrjtibtd68s6dlfs0f64dq4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

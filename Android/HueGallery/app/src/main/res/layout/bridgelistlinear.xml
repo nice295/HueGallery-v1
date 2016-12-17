@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linear1" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/primary"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nice295_list_section_divider_height"
+        android:background="@color/nice295_list_section_divider"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/nice295_list_section_divider_padding_left"
+        android:text="@string/bridge_list"
+        android:textColor="@color/nice295_list_section_divider_text"
+        android:textSize="@dimen/nice295_list_section_divider_text_size"
+        android:id="@+id/textView" />
+
+    <ListView
+        android:id="@+id/bridge_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+    	android:focusable="true"
+    	android:choiceMode="singleChoice"
+    	android:dividerHeight="3sp"
+    	android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:text="@string/txt_select_smartbridge"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+</LinearLayout>

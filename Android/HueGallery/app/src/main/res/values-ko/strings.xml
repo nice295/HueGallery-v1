@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">휴(Hue) 갤러리</string>
+    <string name="view_gallery">갤러리 보기</string>
+    <string name="content_description">content description</string>
+    <string name="HueGallery">휴(Hue) 갤러리</string>
+
+    <string name="ok">확인</string>
+    <string name="permission_storage_rationale">사진을 보기 위해서 스토리지 권한이 필요합니다.</string>
+    <string name="permission_available_storage">스토리지 권한이 승인되었습니다. 갤러리뷰를 열 수 있습니다.</string>
+    <string name="permissions_not_granted">권한이 승인되지 않았습니다.</string>
+    <string name="action_settings">설정</string>
+    <string name="skip">건너뛰기</string>
+
+    <!-- From Qucik Start -->
+    <string name="no_bridge">브릿지를 찾지 못했습니다. 다시 검색을 시작하세요.</string>
+    <string name="btn_refresh">새로고침</string>
+    <string name="btn_find_bridge">새 브릿지 찾기</string>
+    <string name="btn_random">랜덤 라이트</string>
+    <string name="search_progress">검색 중...</string>
+    <string name="connecting">연결 중 ...</string>
+    <string name="btn_ok">확인</string>
+    <string name="btn_cancel">취소</string>
+    <string name="txt_could_not_connect">접속 안됨</string>
+    <string name="txt_click_random_button">Click the Random Lights Button to set your lamps to random colours.</string>
+    <string name="could_not_find_bridge">Hue cannot find your bridge. Please check that it is connected to the same Wi-Fi router as your app and press</string>
+    <string name="btn_more">더보기</string>
+    <string name="btn_reconnect">다시 연결하기</string>
+    <string name="enter_light_name">Enter light name</string>
+    <string name="txt_sdk_version">SDK 버전</string>
+    <string name="menu_find_bridge">새 브릿지 찾기</string>
+    <string name="menu_refresh">새로고침</string>
+    <string name="btn_retry">재시도</string>
+    <string name="searching_for_bridges">브릿지를 찾는 중입니다.</string>
+    <string name="txt_selectbridges">엑서스 포인트에 연결가능</string>
+    <string name="txt_pushlink">푸시링크</string>
+    <string name="press_pushlink_button">브릿지에 링크 버턴을 누르세요.</string>
+    <string name="txt_select_smartbridge">사용할 브릿지를 선택하십시오.</string>
+    <string name="title_error">오류</string>
+    <string name="txt_last_heartbeat">마지막 하트비트 : </string>
+    <string name="bridge_list">브릿지 리스트</string>
+    <string name="bridge_connected">브릿지에 접속중입니다. 휴(Hue) 갤러리를 재미있게 사용해 보세요.</string>
+    <string name="bridge_disconnected">접속된 브릿지가 없습니다. 새로운 브릿지를 찾으셔서 연결하세요.</string>
+    <string name="done">완료</string>
+    <string name="intro1_title">사진과 어울리는 아름다운 무드</string>
+    <string name="intro1_desc">필립스 휴(Hue)가 당신의 사진의 색깔과 자동으로 동기화됩니다.</string>
+</resources>
